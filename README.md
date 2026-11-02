@@ -11,23 +11,21 @@
 
 </div>
 
-<img src="./assets/divider.webp" width="100%" height="28" alt="" />
+<img src="./assets/divider.webp" width="100%" height="12" alt="" />
 
 ### About me
 
 Full Stack developer building complete products, from architecture and APIs to infrastructure and production. I work with **AI agents, SaaS platforms, automation and cloud**, and I like solving operational problems end to end, not building isolated demos.
 
-<img src="./assets/divider.webp" width="100%" height="28" alt="" />
+<img src="./assets/divider.webp" width="100%" height="12" alt="" />
 
 ### <img src="./assets/icons/rocket.svg" width="26" height="26" align="top" alt="" /> Benedash
 
 <div align="center">
 
 <a href="https://benedash.com">
-  <img src="./assets/benedash-pulse.svg" alt="Benedash" width="200" />
+  <img src="./assets/benedash-cta.webp" alt="Benedash - Social media hub + automation platform. Try it now" width="100%" />
 </a>
-
-**Social media hub + automation platform**
 
 Manage social channels, automations, conversations and AI workflows in one place, through official integrations.
 
@@ -37,7 +35,7 @@ Manage social channels, automations, conversations and AI workflows in one place
 
 </div>
 
-<img src="./assets/divider.webp" width="100%" height="28" alt="" />
+<img src="./assets/divider.webp" width="100%" height="12" alt="" />
 
 ### Open source
 
@@ -60,7 +58,7 @@ Self-hosted control plane for **governed AI agents**, with approvals, audit logs
 </tr>
 </table>
 
-<img src="./assets/divider.webp" width="100%" height="28" alt="" />
+<img src="./assets/divider.webp" width="100%" height="12" alt="" />
 
 ### Tech stack
 
@@ -108,7 +106,7 @@ Self-hosted control plane for **governed AI agents**, with approvals, audit logs
 
 </div>
 
-<img src="./assets/divider.webp" width="100%" height="28" alt="" />
+<img src="./assets/divider.webp" width="100%" height="12" alt="" />
 
 ### GitHub activity
 
