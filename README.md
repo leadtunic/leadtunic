@@ -103,8 +103,7 @@ Self-hosted control plane for **governed AI agents**, with approvals, audit logs
 
 <div align="center">
 
-<img src="./profile-summary-card-output/prussian/0-profile-details.svg" width="49%" alt="Profile details" />
-<img src="./profile-summary-card-output/prussian/3-stats.svg" width="49%" alt="GitHub stats" />
+<img src="./profile-summary-card-output/prussian/0-profile-details.svg" width="70%" alt="Profile details" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leadtunic/leadtunic/output/github-snake-dark.svg" />
