@@ -24,8 +24,10 @@ Full Stack developer building complete products, from architecture and APIs to i
 <div align="center">
 
 <a href="https://benedash.com">
-  <img src="./assets/benedash-cta.webp" alt="Benedash - Social media hub + automation platform. Try it now" width="100%" />
+  <img src="./assets/benedash-pulse.svg" alt="Benedash" width="200" />
 </a>
+
+**Social media hub + automation platform**
 
 Manage social channels, automations, conversations and AI workflows in one place, through official integrations.
 
