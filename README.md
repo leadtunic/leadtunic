@@ -11,13 +11,13 @@
 
 </div>
 
-<img src="./assets/divider.webp" width="100%" height="12" alt="" />
+<img src="./assets/divider.webp" width="100%" height="4" alt="" />
 
 ### About me
 
 Full Stack developer building complete products, from architecture and APIs to infrastructure and production. I work with **AI agents, SaaS platforms, automation and cloud**, and I like solving operational problems end to end, not building isolated demos.
 
-<img src="./assets/divider.webp" width="100%" height="12" alt="" />
+<img src="./assets/divider.webp" width="100%" height="4" alt="" />
 
 ### <img src="./assets/icons/rocket.svg" width="26" height="26" align="top" alt="" /> Benedash
 
@@ -37,7 +37,7 @@ Manage social channels, automations, conversations and AI workflows in one place
 
 </div>
 
-<img src="./assets/divider.webp" width="100%" height="12" alt="" />
+<img src="./assets/divider.webp" width="100%" height="4" alt="" />
 
 ### Open source
 
@@ -60,7 +60,7 @@ Self-hosted control plane for **governed AI agents**, with approvals, audit logs
 </tr>
 </table>
 
-<img src="./assets/divider.webp" width="100%" height="12" alt="" />
+<img src="./assets/divider.webp" width="100%" height="4" alt="" />
 
 ### Tech stack
 
@@ -108,7 +108,7 @@ Self-hosted control plane for **governed AI agents**, with approvals, audit logs
 
 </div>
 
-<img src="./assets/divider.webp" width="100%" height="12" alt="" />
+<img src="./assets/divider.webp" width="100%" height="4" alt="" />
 
 ### GitHub activity
 
