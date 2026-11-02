@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="120" viewBox="0 0 1000 120">
+  <defs>
+    <filter id="ditherf" filterUnits="userSpaceOnUse" x="0" y="0" width="1000" height="120" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="32" result="b"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.3" numOctaves="1" seed="7" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  1 0 0 0 0" result="na"/>
+      <feComposite in="b" in2="na" operator="arithmetic" k1="0" k2="1.6" k3="1" k4="-0.82" result="sum"/>
+      <feColorMatrix in="sum" type="matrix" values="0 0 0 0 0.165  0 0 0 0 0.27  0 0 0 0 0.66  0 0 0 24 -12"/>
+    </filter>
+  </defs>
+  <rect width="1000" height="120" fill="#0A0A0A"/>
+  <g filter="url(#ditherf)">
+      <path d="M80 140 C160 70 280 90 330 60 C400 20 500 60 560 40 C640 20 700 60 660 100" fill="none" stroke="#fff" stroke-width="40" stroke-linecap="round" stroke-linejoin="round">
+        <animateTransform attributeName="transform" type="translate" values="0 0;35 -12;0 0" dur="10s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+      </path>
+      <path d="M760 150 C800 100 900 90 940 120" fill="none" stroke="#fff" stroke-width="36" stroke-linecap="round" stroke-linejoin="round">
+        <animateTransform attributeName="transform" type="translate" values="0 0;-30 -15;0 0" dur="9s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+      </path>
+      
+  </g>
+  
+  
+</svg>

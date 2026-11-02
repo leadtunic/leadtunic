@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A2A8A,50:2F80FF,100:00C6FF&height=220&section=header&text=Giovani%20Ricetto&fontSize=52&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Full%20Stack%20%C2%B7%20AI%20Agents%20%C2%B7%20SaaS%20%C2%B7%20Automation%20%C2%B7%20DevOps&descSize=18&descAlignY=60" width="100%" alt="Giovani Ricetto" />
+<img src="./assets/banner.svg" width="100%" alt="Giovani Ricetto" />
 
 <a href="https://github.com/leadtunic">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=2F80FF&center=true&vCenter=true&width=720&height=50&lines=Building+AI+agents+for+real+operations;Shipping+SaaS+platforms+to+production;Connecting+APIs%2C+automation+and+cloud;Building+Benedash" alt="Typing animation" />
@@ -225,6 +225,6 @@ Data & Integrations      ██████████████████�
 **[Benedash](https://benedash.com)** · **[LinkedIn](https://br.linkedin.com/in/giovani-ricetto-50507925b)**
 
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,50:2F80FF,100:0A2A8A&height=120&section=footer" width="100%" alt="" />
+<img src="./assets/footer.svg" width="100%" alt="" />
 
 </div>

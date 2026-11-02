@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300">
+  <defs>
+    <filter id="ditherh" filterUnits="userSpaceOnUse" x="0" y="0" width="1000" height="300" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="32" result="b"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.3" numOctaves="1" seed="7" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  1 0 0 0 0" result="na"/>
+      <feComposite in="b" in2="na" operator="arithmetic" k1="0" k2="1.6" k3="1" k4="-0.82" result="sum"/>
+      <feColorMatrix in="sum" type="matrix" values="0 0 0 0 0.165  0 0 0 0 0.27  0 0 0 0 0.66  0 0 0 24 -12"/>
+    </filter>
+  </defs>
+  <rect width="1000" height="300" fill="#0A0A0A"/>
+  <g filter="url(#ditherh)">
+      <path d="M40 20 C120 -20 220 20 210 90 C200 140 120 150 90 110" fill="none" stroke="#fff" stroke-width="46" stroke-linecap="round" stroke-linejoin="round">
+        <animateTransform attributeName="transform" type="translate" values="0 0;30 18;0 0" dur="10s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+      </path>
+      <path d="M330 250 C380 190 470 200 480 150 C490 100 600 110 640 80 C700 40 760 60 800 40 C860 20 900 60 860 90" fill="none" stroke="#fff" stroke-width="60" stroke-linecap="round" stroke-linejoin="round">
+        <animateTransform attributeName="transform" type="translate" values="0 0;-40 22;0 0" dur="12s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+      </path>
+      <path d="M600 200 C640 170 720 200 700 250 C690 290 620 300 600 330" fill="none" stroke="#fff" stroke-width="52" stroke-linecap="round" stroke-linejoin="round">
+        <animateTransform attributeName="transform" type="translate" values="0 0;-25 -20;0 0" dur="9s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+      </path>
+      <path d="M880 230 C930 200 970 240 940 290" fill="none" stroke="#fff" stroke-width="42" stroke-linecap="round" stroke-linejoin="round">
+        <animateTransform attributeName="transform" type="translate" values="0 0;-25 -20;0 0" dur="8s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+      </path>
+      <path d="M470 -10 C500 20 560 20 580 -10" fill="none" stroke="#fff" stroke-width="46" stroke-linecap="round" stroke-linejoin="round">
+        <animateTransform attributeName="transform" type="translate" values="0 0;20 30;0 0" dur="10s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+      </path>
+      
+  </g>
+  <text x="500.0" y="152" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="700" font-size="64" letter-spacing="-2" fill="#fff">Giovani Ricetto</text>
+  <text x="500.0" y="196" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="400" font-size="20" fill="#C9D4F5">Full Stack · AI Agents · SaaS · Automation · DevOps</text>
+</svg>
