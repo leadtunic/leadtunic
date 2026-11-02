@@ -203,10 +203,10 @@ Data & Integrations      ██████████████████�
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=leadtunic&show_icons=true&hide_border=true&bg_color=0D1117&title_color=2F80FF&icon_color=00C6FF&text_color=C9D1D9" height="170" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leadtunic&layout=compact&hide_border=true&bg_color=0D1117&title_color=2F80FF&text_color=C9D1D9" height="170" alt="Top languages" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=leadtunic&bg_color=0D1117&color=2F80FF&line=2F80FF&point=00C6FF&area=true&area_color=2F80FF&hide_border=true" width="100%" alt="Activity graph" />
+<img src="./profile-summary-card-output/prussian/0-profile-details.svg" width="49%" alt="Profile details" />
+<img src="./profile-summary-card-output/prussian/3-stats.svg" width="49%" alt="GitHub stats" />
+<img src="./profile-summary-card-output/prussian/2-most-commit-language.svg" width="49%" alt="Most commit language" />
+<img src="./profile-summary-card-output/prussian/1-repos-per-language.svg" width="49%" alt="Repos per language" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leadtunic/leadtunic/output/github-snake-dark.svg" />
