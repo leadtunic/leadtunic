@@ -11,15 +11,15 @@
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" height="6" alt="" />
+<img src="./assets/divider.webp" width="100%" height="28" alt="" />
 
-## About me
+### About me
 
 Full Stack developer building complete products, from architecture and APIs to infrastructure and production. I work with **AI agents, SaaS platforms, automation and cloud**, and I like solving operational problems end to end, not building isolated demos.
 
-<img src="./assets/divider.svg" width="100%" height="6" alt="" />
+<img src="./assets/divider.webp" width="100%" height="28" alt="" />
 
-## <img src="./assets/icons/rocket.svg" width="26" height="26" align="top" alt="" /> Benedash
+### <img src="./assets/icons/rocket.svg" width="26" height="26" align="top" alt="" /> Benedash
 
 <div align="center">
 
@@ -37,22 +37,22 @@ Manage social channels, automations, conversations and AI workflows in one place
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" height="6" alt="" />
+<img src="./assets/divider.webp" width="100%" height="28" alt="" />
 
-## Open source
+### Open source
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### <img src="./assets/icons/bot.svg" width="26" height="26" align="top" alt="" /> [AgentDock OS](https://github.com/leadtunic/Agentdock-os)
+#### <img src="./assets/icons/bot.svg" width="26" height="26" align="top" alt="" /> [AgentDock OS](https://github.com/leadtunic/Agentdock-os)
 
 Self-hosted control plane for **governed AI agents**, with approvals, audit logs and cost policies.
 
 </td>
 <td width="50%" valign="top">
 
-### <img src="./assets/icons/brain.svg" width="26" height="26" align="top" alt="" /> [Agent SkillForge](https://github.com/leadtunic/Skillforge)
+#### <img src="./assets/icons/brain.svg" width="26" height="26" align="top" alt="" /> [Agent SkillForge](https://github.com/leadtunic/Skillforge)
 
 **50 reusable AI agent skills** for engineering, QA, security and DevOps.
 
@@ -60,9 +60,9 @@ Self-hosted control plane for **governed AI agents**, with approvals, audit logs
 </tr>
 </table>
 
-<img src="./assets/divider.svg" width="100%" height="6" alt="" />
+<img src="./assets/divider.webp" width="100%" height="28" alt="" />
 
-## Tech stack
+### Tech stack
 
 <div align="center">
 
@@ -108,9 +108,9 @@ Self-hosted control plane for **governed AI agents**, with approvals, audit logs
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" height="6" alt="" />
+<img src="./assets/divider.webp" width="100%" height="28" alt="" />
 
-## GitHub activity
+### GitHub activity
 
 <div align="center">
 
