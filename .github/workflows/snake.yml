@@ -30,10 +30,22 @@ jobs:
                 }
               }
             }' > contributions.json
+      - name: Checkout snk solver
+        uses: actions/checkout@v4
+        with:
+          repository: Platane/snk
+          ref: a041d6c27ba561a39f5be9c26a784812765e434b
+          path: snk
+      - name: Compute snk route
+        run: |
+          mkdir -p snk/node_modules/@snk snk/packages/chain
+          for p in solver types; do ln -sfn "$PWD/snk/packages/$p" snk/node_modules/@snk/$p; done
+          cp .github/scripts/snake_chain.ts snk/packages/chain/chain.ts
+          cd snk/packages/chain && npx --yes tsx chain.ts "$GITHUB_WORKSPACE/contributions.json" "$GITHUB_WORKSPACE/chain.json"
       - name: Generate eat-explode-respawn snake
         run: |
-          python3 .github/scripts/snake_gen.py contributions.json dist/github-snake.svg --theme light
-          python3 .github/scripts/snake_gen.py contributions.json dist/github-snake-dark.svg --theme dark
+          python3 .github/scripts/snake_gen.py contributions.json chain.json dist/github-snake.svg --theme light
+          python3 .github/scripts/snake_gen.py contributions.json chain.json dist/github-snake-dark.svg --theme dark
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output

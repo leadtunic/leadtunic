@@ -2,7 +2,10 @@
 """Animated contribution snake: eats the graph, explodes, re-spreads the
 contributions, one of them is blue and hatches the next snake. Loops forever.
 
-usage: snake_gen.py contributions.json out.svg [--theme dark|light]
+usage: snake_gen.py contributions.json chain.json out.svg [--theme dark|light]
+chain.json: head positions [[x, y], ...] computed by the snk solver
+(snake_chain.ts) -- the snake follows the original snk route, eating the
+darkest cells first and the brightest last.
 contributions.json: output of the GraphQL contributionCalendar query
 (either the raw `gh api graphql` response or just the `weeks` list).
 """
@@ -13,8 +16,8 @@ import sys
 
 PITCH, SIZE = 12, 10
 PADL, PADR, PADT, PADB = 26, 60, 36, 30
-TICK = 0.04          # seconds per cell travelled by the snake
-SEG = 14             # snake segments
+TICK = 0.03          # seconds per cell travelled by the snake
+SEG = 12             # snake segments
 GROW = 4             # head cells travelled per new segment
 BLUE = "#2F80FF"
 LEVELS = {"NONE": 0, "FIRST_QUARTILE": 1, "SECOND_QUARTILE": 2,
@@ -35,15 +38,27 @@ def load(path):
     return d
 
 
-def build_path(weeks):
-    path = []
+def build_cells(weeks):
+    cells = []
     for c, w in enumerate(weeks):
-        days = sorted(w["contributionDays"], key=lambda x: x["weekday"])
-        if c % 2:
-            days.reverse()
-        for d in days:
-            path.append((c, d["weekday"], LEVELS[d["contributionLevel"]]))
-    return path
+        for d in w["contributionDays"]:
+            cells.append((c, d["weekday"], LEVELS[d["contributionLevel"]]))
+    return cells
+
+
+def build_route(cells, chain):
+    """head route (without the off-grid entry), cut right after the last
+    contribution is eaten; also returns the index each cell is eaten at."""
+    lv = {(c, r): l for c, r, l in cells}
+    chain = [tuple(p) for p in chain]
+    if len(chain) > 1 and chain[0] not in lv:
+        chain = chain[1:]
+    eaten, last = {}, 0
+    for i, p in enumerate(chain):
+        if lv.get(p, 0) > 0 and p not in eaten:
+            eaten[p] = i
+            last = i
+    return chain[:last + 1], eaten
 
 
 def f1(v):
@@ -55,9 +70,10 @@ def tf(x, y, s=1.0, r=0.0):
 
 
 class Gen:
-    def __init__(self, weeks, theme):
+    def __init__(self, weeks, chain, theme):
         self.theme = THEMES[theme]
-        self.path = build_path(weeks)
+        self.cells = build_cells(weeks)
+        self.path, self.eaten = build_route(self.cells, chain)
         self.n = len(self.path)
         self.cols = len(weeks)
         self.rng = random.Random(7)
@@ -126,16 +142,17 @@ class Gen:
         start = self.center(*self.path[0][:2])
 
         # static empty grid
-        for c, r, _ in self.path:
+        for c, r, _ in self.cells:
             x = PADL + c * PITCH
             y = PADT + r * PITCH
             self.body.append('<rect x="%d" y="%d" width="%d" height="%d" rx="2" fill="%s"/>' % (x, y, SIZE, SIZE, th["empty"]))
 
         # contribution cells: eaten -> fly back from the explosion
-        maxd = max(math.hypot(self.center(c, r)[0] - end[0], self.center(c, r)[1] - end[1]) for c, r, _ in self.path) or 1
-        for idx, (c, r, lv) in enumerate(self.path):
+        maxd = max(math.hypot(self.center(c, r)[0] - end[0], self.center(c, r)[1] - end[1]) for c, r, _ in self.cells) or 1
+        for (c, r, lv) in self.cells:
             if lv == 0:
                 continue
+            idx = self.eaten[(c, r)]
             hx, hy = self.center(c, r)
             d = math.hypot(hx - end[0], hy - end[1])
             e = max(0.0, idx * TICK - 0.03)
@@ -257,8 +274,8 @@ def main():
         i = args.index("--theme")
         theme = args[i + 1]
         del args[i:i + 2]
-    src, out = args
-    svg = Gen(load(src), theme).svg()
+    src, chain, out = args
+    svg = Gen(load(src), json.load(open(chain)), theme).svg()
     open(out, "w").write(svg)
     print("%s: %d bytes" % (out, len(svg)))
 
