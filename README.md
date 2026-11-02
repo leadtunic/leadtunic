@@ -1,8 +1,10 @@
 <div align="center">
 
-# Giovani Ricetto
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A2A8A,50:2F80FF,100:00C6FF&height=220&section=header&text=Giovani%20Ricetto&fontSize=52&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Full%20Stack%20%C2%B7%20AI%20Agents%20%C2%B7%20SaaS%20%C2%B7%20Automation%20%C2%B7%20DevOps&descSize=18&descAlignY=60" width="100%" alt="Giovani Ricetto" />
 
-### Full Stack Developer · AI Agents · SaaS · Automation · DevOps
+<a href="https://github.com/leadtunic">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=2F80FF&center=true&vCenter=true&width=720&height=50&lines=Building+AI+agents+for+real+operations;Shipping+SaaS+platforms+to+production;Connecting+APIs%2C+automation+and+cloud;Building+Benedash" alt="Typing animation" />
+</a>
 
 I build production software connecting **AI, APIs, automation, cloud infrastructure and real-world operations**.
 
@@ -11,7 +13,7 @@ I build production software connecting **AI, APIs, automation, cloud infrastruct
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt="" />
 
 ## About me
 
@@ -21,14 +23,14 @@ My work is centered around **AI agents, SaaS platforms, social APIs, automation,
 
 I like building products that solve operational problems end to end, not isolated demos.
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt="" />
 
 ## 🚀 Main product — Benedash
 
 <div align="center">
 
 <a href="https://benedash.com">
-  <img src="./assets/benedash.png" alt="Benedash" width="130" />
+  <img src="./assets/benedash-pulse.svg" alt="Benedash" width="200" />
 </a>
 
 ### [Benedash](https://benedash.com)
@@ -48,7 +50,7 @@ A centralized platform for managing social channels, automations, conversations,
 
 **Core technologies:** Next.js · TypeScript · Supabase · PostgreSQL · APIs · Webhooks · AI
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt="" />
 
 ## Open source projects
 
@@ -79,7 +81,7 @@ Covers software architecture, engineering, QA, security, DevOps, documentation, 
 </tr>
 </table>
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt="" />
 
 ## What I work with
 
@@ -90,7 +92,7 @@ Covers software architecture, engineering, QA, security, DevOps, documentation, 
 - **Data** — PostgreSQL, Supabase, Redis, analytics and business intelligence
 - **DevOps & Cloud** — Docker, CI/CD, Linux, self-hosting, AWS, Azure, Cloudflare, Vercel and Dokploy
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt="" />
 
 ## Tech stack
 
@@ -174,7 +176,7 @@ Covers software architecture, engineering, QA, security, DevOps, documentation, 
 ![Blender](https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white)
 ![Natron](https://img.shields.io/badge/Natron-Compositing-2B2B2B?style=flat-square)
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt="" />
 
 ## Engineering focus
 
@@ -187,7 +189,7 @@ Cloud & DevOps           ██████████████████�
 Data & Integrations      ██████████████████░░
 ```
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt="" />
 
 ## More open source
 
@@ -195,12 +197,34 @@ Data & Integrations      ██████████████████�
 - **[Agent SkillForge](https://github.com/leadtunic/Skillforge)** — reusable production-oriented agent skills
 - **[DevOps Lab](https://github.com/leadtunic/devops-projeto)** — Docker and CI/CD experimentation
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt="" />
+
+## GitHub activity
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=leadtunic&show_icons=true&hide_border=true&bg_color=0D1117&title_color=2F80FF&icon_color=00C6FF&text_color=C9D1D9" height="170" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leadtunic&layout=compact&hide_border=true&bg_color=0D1117&title_color=2F80FF&text_color=C9D1D9" height="170" alt="Top languages" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=leadtunic&bg_color=0D1117&color=2F80FF&line=2F80FF&point=00C6FF&area=true&area_color=2F80FF&hide_border=true" width="100%" alt="Activity graph" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leadtunic/leadtunic/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leadtunic/leadtunic/output/github-snake.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/leadtunic/leadtunic/output/github-snake.svg" width="100%" />
+</picture>
+
+</div>
+
+<img src="./assets/divider.svg" width="100%" height="6" alt="" />
 
 <div align="center">
 
 ### Building products that connect AI, APIs and real-world operations.
 
 **[Benedash](https://benedash.com)** · **[LinkedIn](https://br.linkedin.com/in/giovani-ricetto-50507925b)**
+
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,50:2F80FF,100:0A2A8A&height=120&section=footer" width="100%" alt="" />
 
 </div>
