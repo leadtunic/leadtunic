@@ -25,7 +25,7 @@ I like building products that solve operational problems end to end, not isolate
 
 <img src="./assets/divider.svg" width="100%" height="6" alt="" />
 
-## 🚀 Main product — Benedash
+## <img src="./assets/icons/rocket.svg" width="26" height="26" align="top" alt="" /> Main product — Benedash
 
 <div align="center">
 
@@ -58,7 +58,7 @@ A centralized platform for managing social channels, automations, conversations,
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 [AgentDock OS](https://github.com/leadtunic/Agentdock-os)
+### <img src="./assets/icons/bot.svg" width="26" height="26" align="top" alt="" /> [AgentDock OS](https://github.com/leadtunic/Agentdock-os)
 
 Open-source operating system for **governed AI agents**.
 
@@ -69,7 +69,7 @@ A self-hosted control plane for agents that can work with code, browsers, Git, M
 </td>
 <td width="50%" valign="top">
 
-### 🧠 [Agent SkillForge](https://github.com/leadtunic/Skillforge)
+### <img src="./assets/icons/brain.svg" width="26" height="26" align="top" alt="" /> [Agent SkillForge](https://github.com/leadtunic/Skillforge)
 
 A production-oriented collection of **50 reusable AI agent skills**.
 
